@@ -1,4 +1,4 @@
-name: /hdd2/chenyang/lama
+name: /your_dir/lama
 channels:
   - defaults
 dependencies:
@@ -130,4 +130,4 @@ dependencies:
     - wrapt==1.14.1
     - yarl==1.9.4
     - zipp==3.17.0
-prefix: /hdd2/chenyang/lama
+prefix: /your_dir/lama

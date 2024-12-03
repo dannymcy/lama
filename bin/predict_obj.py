@@ -35,7 +35,7 @@ from saicinpainting.utils import register_debug_signal_handlers
 LOGGER = logging.getLogger(__name__)
 
 # export TORCH_HOME=$(pwd) && export PYTHONPATH=$(pwd)
-# python bin/predict.py
+# python bin/predict_obj.py
 @hydra.main(config_path='../configs/prediction', config_name='default_obj.yaml')
 def main(predict_config: OmegaConf):
     try:
