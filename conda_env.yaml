@@ -1,4 +1,4 @@
-name: /your_dir/lama
+name: /your_dir/lama/env
 channels:
   - defaults
 dependencies:
@@ -130,4 +130,4 @@ dependencies:
     - wrapt==1.14.1
     - yarl==1.9.4
     - zipp==3.17.0
-prefix: /your_dir/lama
+prefix: /your_dir/lama/env
